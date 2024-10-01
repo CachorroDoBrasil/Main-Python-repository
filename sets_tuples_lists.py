@@ -187,3 +187,19 @@ capitals.update({"France":"Paris"})
 capitals.update({"Brazil":"Rio de Janeiro"})
 capitals.update({"Russia":"Moscow"})
 print(capitals)
+capitals.pop("China")
+print(capitals)
+#clear the dictionary
+#capitals.clear()
+#loop through the dictionary
+for key in capitals:
+    print(f"these are the {key}")
+
+#PRINT the values in the dictionary
+for value in capitals.values():
+    print(value)
+
+#print the key value pairs in the dictionary
+items_all = capitals.items() #key value pairs
+for key, value in items_all: 
+    print(f"{value} is the capital of {key}")
